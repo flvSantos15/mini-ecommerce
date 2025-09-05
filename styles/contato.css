@@ -1,13 +1,37 @@
+/* coloca um espaco de 20px para cima */
+/* coloca uma altura de 300px */
+/* colocar como coluna */
+/* alinhado para o centro */
 .contato {}
 
-.contato h2 {}
-
+/* coloca um espaco de 20px para cima */
+/* coloca uma largura de 400px */
+/* coloca uma cor de fundo #f2f2f2 */
+/* coloca uma borda arredondada de 10px */
+/* coloca uma borda com a cor #ccc */
+/* coloca um espaco interno de 16px */
+/* coloca um espaco de 16px entre os elementos */
+/* colocar como coluna */
 .contato form {}
 
+/* coloque a label e o input como coluna */
+/* e um espaco de 10px entre eles */
+.contato .form-group {}
+
+/* coloca uma fonte pequena */
 .contato form label {}
 
+/* faz uma estilizacao legal para o input */
 .contato form input {}
 
+/* faz uma estilizacao legal para o textarea, baseado no input */
 .contato form textarea {}
 
+/* deixa o botao sem borda, com uma cor de fundo azul, coloca uma cor branca para o texto */
+/* coloca uma borda arredondada */
+/* coloca um espaco interno de 10px vertical e 20px horizontal */
+/* coloca um cursor de ponteiro */
 .contato form button {}
+
+/* quando eu passa o mouse por cima do botao quero um azul escuro */
+.contato form button:hover {}

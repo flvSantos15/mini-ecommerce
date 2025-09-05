@@ -12,5 +12,4 @@ Pessoa 2: Página de Produtos
 
 Pessoa 3: Página de Contato
  - Criar formulário com campos básicos (nome, email, mensagem).
- - Adicionar seção de redes sociais (links fictícios).
  - Estilizar usando contato.css.

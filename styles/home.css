@@ -6,8 +6,6 @@
   overflow: hidden;
 }
 
-.carousel h2 {}
-
 .carousel-container {
   display: flex;
   transition: transform 0.5s ease-in-out;
@@ -46,21 +44,40 @@
   right: 10px;
 }
 
-.carousel-container img {}
-
 /* Produtos em destaque */
+/* coloca um espaco de 20px para cima e para baixo e auto para os lados */
+/* e uma largura de 800px */
 .produtos-destaque {}
 
+/* coloca um espaco de 18px abaixo do titulo */
 .produtos-destaque h2 {}
 
+/* coloca como grid de 3 colunas e espaco de 10px entre eles */
 .produtos-container {}
 
+/* cria um quadrado com borda arredondada */
+/* e uma largura de 240px */
 .produtos-container .produto {}
 
+/* coloca uma largura de 100% */
+/* e uma borda arredondada */
 .produtos-container .produto img {}
 
+/* coloca uma margem de 10px para cima e para baixo */
+/* e uma fonte de 18px */
+/* e alinha o texto ao centro */
+/* coloca um peso na font para bold */
 .produtos-container .produto p {}
 
-.produtos-container .produto span {}
+/* colocar o preco e o botao em coluna */
+/* colocar um espaco de 10px */
+.produtos-container .produto .detalhes {}
 
+/* coloca uma cor de fundo azul e branco para o texto */
+/* coloca uma borda arredondada */
+/* coloca um espaco interno de 10px vertical e 20px horizontal */
+/* coloca um cursor de ponteiro */
 .produtos-container .produto button {}
+
+/* coloca uma cor de fundo azul escuro, quando o mouse passar por cima */
+.produtos-container .produto button:hover {}
