@@ -1,0 +1,66 @@
+/* Carrossel */
+.carousel {
+  position: relative;
+  max-width: 800px;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+.carousel h2 {}
+
+.carousel-container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  display: none;
+}
+
+.slide.active {
+  display: block;
+}
+
+.slide img {
+  width: 100%;
+  display: block;
+}
+
+.carousel button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.carousel .prev {
+  left: 10px;
+}
+
+.carousel .next {
+  right: 10px;
+}
+
+.carousel-container img {}
+
+/* Produtos em destaque */
+.produtos-destaque {}
+
+.produtos-destaque h2 {}
+
+.produtos-container {}
+
+.produtos-container .produto {}
+
+.produtos-container .produto img {}
+
+.produtos-container .produto p {}
+
+.produtos-container .produto span {}
+
+.produtos-container .produto button {}

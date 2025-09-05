@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini E-commerce - Produtos</title>
+  <link rel="stylesheet" href="styles/global.css">
+  <link rel="stylesheet" href="styles/produtos.css">
+  <script src="scripts/global.js"></script>
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <div class="logo">🛍️ Minha Loja</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="lista-produtos">
+      <h2>Todos os Produtos</h2>
+      <div class="produtos-container">
+        <div class="produto">
+          <img src="images/cadeira.png" alt="Cadeira">
+          <p>Cadeira</p>
+          <span>R$ 49,90</span>
+          <button onclick="addToCart('Cadeira')">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+          <img src="images/caixa-som.png" alt="Caixa de som">
+          <p>Caixa de som</p>
+          <span>R$ 79,90</span>
+          <button onclick="addToCart('Caixa de som')">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+          <img src="images/carregador.png" alt="Carregador">
+          <p>Carregador</p>
+          <span>R$ 99,90</span>
+          <button onclick="addToCart('Carregador')">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+          <img src="images/mochila.png" alt="Mochila">
+          <p>Mochila</p>
+          <span>R$ 59,90</span>
+          <button onclick="addToCart('Mochila')">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+          <img src="images/monitor.png" alt="Monitor">
+          <p>Monitor</p>
+          <span>R$ 89,90</span>
+          <button onclick="addToCart('Monitor')">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+          <img src="images/notebook.png" alt="Notebook">
+          <p>Notebook</p>
+          <span>R$ 2229,90</span>
+          <button onclick="addToCart('Notebook')">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+          <img src="images/smartwatch.png" alt="smartwatch">
+          <p>Smartwatch</p>
+          <span>R$ 129,90</span>
+          <button onclick="addToCart('Smarthwatch')">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+          <img src="images/tablet.png" alt="tablet">
+          <p>Table</p>
+          <span>R$ 1229,90</span>
+          <button onclick="addToCart('Tablet')">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+          <img src="images/tablet2.png" alt="tablet 2">
+          <p>Table Readmi</p>
+          <span>R$ 1129,90</span>
+          <button onclick="addToCart('Tablet 2')">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+          <img src="images/smartphone.png" alt="Smartphone">
+          <p>Iphone</p>
+          <span>R$ 5129,90</span>
+          <button onclick="addToCart('Iphone')">Adicionar ao Carrinho</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2025 Minha Loja - Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
