@@ -16,17 +16,13 @@
     <nav>
       <ul>
         <li><a href="index.html">Inicio</a></li>
-        <li><a href="produtos.html">Produto</a></li>
+        <li><a href="produtos.html">Produtos</a></li>
         <li><a href="contato.html">Contato</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section class="banner">
-      <h1>Seja bem-vindo à nossa loja!</h1>
-    </section>
-
     <section class="carousel">
       <h2>Destaques</h2>
       <div class="carousel-container">
@@ -45,22 +41,31 @@
         <div class="produto">
           <img src="images/cadeira.png" alt="Cadeira">
           <p>Cadeira</p>
-          <span>R$ 599,90</span>
-          <button onclick="addToCart('Cadeira')">Adicionar ao carrinho</button>
+          
+          <div class="detalhes">
+            <span>R$ 599,90</span>
+            <button onclick="addToCart('Cadeira')">Adicionar ao carrinho</button>
+          </div>
         </div>
 
         <div class="produto">
           <img src="images/caixa-som.png" alt="Caixa de som">
           <p>Caixa de som</p>
-          <span>R$ 79,90</span>
-          <button onclick="addToCart('Caixa de som')">Adicionar ao Carrinho</button>
+          
+          <div class="detalhes">
+            <span>R$ 79,90</span>
+            <button onclick="addToCart('Caixa de som')">Adicionar ao Carrinho</button>
+          </div>
         </div>
         
         <div class="produto">
           <img src="images/notebook.png" alt="Notebook">
           <p>Notebook</p>
-          <span>R$ 2099,90</span>
-          <button onclick="addToCart('Notebook')">Adicionar ao Carrinho</button>
+          
+          <div class="detalhes">
+            <span>R$ 2099,90</span>
+            <button onclick="addToCart('Notebook')">Adicionar ao Carrinho</button>
+          </div>
         </div>
       </div>
     </section>
