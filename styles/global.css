@@ -11,49 +11,43 @@ body {
   background-color: #f2f2f2;
 }
 
+/* adicione um espacamento entre o logo e os links */
+/* centralize o cabeçalho */
+/* adicione um espacamento interno de 20px */
+/* adicione uma cor de fundo #d6d6d6 */
+/* adicione uma cor de texto #fff */
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-
-  background-color: #d6d6d6;
-  color: #fff;
-
   position: sticky;
   top: 0;
   z-index: 1;
+
+  /* aqui vai o restante dos estilos */
 }
 
-header nav ul {
-  display: flex;
-  gap: 20px;
-}
+/* adicione um espacamento entre os links */
+header nav ul {}
 
-header nav ul li {
-  list-style: none;
-}
+/* remove o estilo de lista */
+header nav ul li {}
 
-header nav ul li:hover {
-  text-decoration: underline;
-}
+/* adicione um efeito de sublinhado */
+header nav ul li:hover {}
 
-header nav ul li a {
-  text-decoration: none;
-  color: #fff;
-}
+/* remova o underline */
+/* adicione a cor de texto #fff */
+header nav ul li a {}
 
-main {
-  min-height: 100vh;
-}
+/* adicione uma altura minima de 100vh */
+main {}
 
+/* adicione um espacamento interno de 20px */
+/* adicione uma cor de fundo #d6d6d6 */
+/* adicione uma cor de texto #fff */
+/* alinhe o texto ao centro */
 footer {
-  padding: 20px;
-  text-align: center;
-  background-color: #d6d6d6;
-  color: #fff;
-
   position: sticky;
   bottom: 0;
   z-index: 1;
+
+  /* aqui vai o restante dos estilos  */
 }
