@@ -13,6 +13,15 @@ Projeto simples de um site de loja virtual feito com **HTML + CSS**.
 - HTML5
 - CSS3
 
+## Instrucoes
+- Clonar o projeto
+(Apenas da sua responsabilidade)
+- Criar uma branch separada (feat/contato) se for page de contato
+- Criar uma branch separada (feat/produtos) se for page de produtos
+- Criar uma branch separada (feat/dev) se for page de home
+- Comecar a editar o arquivo css.
+- Pode subir as alteracoes na sua branch.
+
 ## 👨‍💻 Contribuidores
 - Pessoa 1 - Página Inicial
 - Pessoa 2 - Produtos
